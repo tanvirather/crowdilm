@@ -1,0 +1,15 @@
+@import "./base.css";
+
+@font-face {
+  font-family: Scheherazade;
+  src: url("/fonts/Scheherazade-Regular.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--color-primary);
+  background: var(--background-shadow);
+  font-family: Scheherazade, sans-serif;
+}
